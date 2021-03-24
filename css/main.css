@@ -131,6 +131,16 @@ main.main-profile .tel {
 
 }
 
+/* profile motion */
+@keyframes slide-up2 {
+    0% {opacity: 0;}
+    20% {opacity: 0; transform: translateY(40px);}
+}
+main.main-profile div.motion {
+    animation-name: slide-up2;
+    animation-duration: 1.3s;
+}
+
 section.profile-list {
     max-width: 1720px;
     box-sizing: border-box;
