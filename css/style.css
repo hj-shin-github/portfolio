@@ -234,7 +234,7 @@ nav {
     /* margin: 30px 0; */
     
 }
-.web4 .web-img1 {
+.web4 .web-img1 div {
     display: flex;
     justify-content: space-between;
     align-items: center;
